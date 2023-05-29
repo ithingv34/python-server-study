@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "fastapi-jwt"
+version = "0.1.0"
+description = ""
+authors = ["ithingv34 <ithingv34@gmail.com>"]
+readme = "README.md"
+packages = [{include = "fastapi_jwt"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "0.89.1"
+uvicorn = "0.20.0"
+pydantic = {extras = ["email"], version = "^1.10.8"}
+PyJWT = "2.6.0"
+python-decouple = "3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
