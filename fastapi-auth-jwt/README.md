@@ -2,6 +2,12 @@
 
 <img src="./images/img-1.png">
 
+## TODO
+- [] refresh token 발급
+- [] hash password 
+- [] database connection
+- [] test 
+- [] frontend user login 
 
 ## Usage
 
