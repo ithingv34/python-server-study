@@ -1,4 +1,3 @@
-@@ -1,30 +0,0 @@
 # Fastapi CRUD with Async Database 
 
 <img src="../images/img-2.png">
