@@ -1,19 +1,19 @@
 ## Jwt 토큰을 사용한 인증
 
-<img src="./images/img-1.png">
+<img src="../images/img-1.png">
 
 ## TODO
-- [] refresh token 발급
-- [] hash password 
-- [] database connection
-- [] test 
-- [] frontend user login 
+- [ ] refresh token 발급
+- [ ] hash password 
+- [ ] database connection
+- [ ] test 
+- [ ] frontend user login 
 
 ## Usage
 
 1. poetry 가상환경 실행
 ```bash
-$ cd fastapi-jwt
+$ poetry install
 $ poetry shell
 ```
 
