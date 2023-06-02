@@ -6,6 +6,7 @@ app = FastAPI()
 
 app.include_router(StudentRouter, tags=["Student"], prefix="/student")
 
+
 @app.get("/", tags=["Root"])
 async def read_root():
     return {"message": "Server is running...."}
