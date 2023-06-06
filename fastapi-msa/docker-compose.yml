@@ -1,0 +1,25 @@
+version: '3'
+services:
+  user-service:
+    build:
+      context: ./backend/user
+    ports:
+      - '8000:8000'
+
+  order-service:
+    build:
+      context: ./backend/order
+    ports:
+      - '8001:8000'
+
+  product-service:
+    build:
+      context: ./backend/product
+    ports:
+      - '8002:8000'
+
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - '3000:3000'
