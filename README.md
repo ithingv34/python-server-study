@@ -1,2 +1,2 @@
-# Python server study
+# python server study
 
